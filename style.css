@@ -384,6 +384,11 @@ footer {
   display: flex;
 }
 
+.logo-phone {
+  visibility: hidden;
+  position: absolute;
+}
+
 .logo-icon {
   margin-right: 656px;
 }
@@ -762,5 +767,597 @@ footer {
 
   .fio-icon {
     width: 18.53px;
+  }
+
+  .date {
+    background-color: #9dc9c8;
+    padding-top: 77px;
+    padding-left: 70px;
+    padding-bottom: 107.5px;
+  }
+
+  .price {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 101.38%;
+    margin: 31px 0 4px 0;
+  }
+
+  .pricen {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 101.38%;
+    margin: 0;
+  }
+
+  .date-f {
+    display: flex;
+  }
+
+  .date-d {
+    width: 170px;
+    margin-top: 41px;
+    margin-right: 40px;
+  }
+
+  .date-f_h {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 101.38%;
+    margin: 0 0 7px 0;
+  }
+
+  .date-f_p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 101.38%;
+    margin: 0;
+  }
+
+  footer {
+    background-color: #000;
+    color: white;
+    padding-left: 70px;
+    padding-top: 29px;
+    padding-bottom: 26px;
+  }
+
+  .footer-f {
+    display: flex;
+  }
+
+  .logo-icon {
+    margin-right: 380px;
+  }
+
+  .logo-phone {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .icon {
+    margin-top: 17px;
+    margin-right: 10px;
+    width: 19px;
+  }
+
+  .contact {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 101.38%;
+    margin-left: 12px;
+  }
+
+  .contact-p {
+    display: flex;
+  }
+
+  .contact-d {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 101.38%;
+    margin-top: 84px;
+    margin-bottom: 0;
+  }
+
+  .img-contact {
+    width: 16px;
+  }
+}
+
+@media (min-width: 275px) and (max-width: 833px) {
+  .kino {
+    margin-top: 36px;
+    margin-left: 35px;
+    margin-bottom: 75px;
+  }
+
+  .logo {
+    width: 52px;
+  }
+
+  .main-menu {
+    display: flex;
+    margin-top: 0px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 115%;
+    margin-bottom: 12px;
+  }
+
+  .mm-text {
+    width: 90px;
+    height: 11px;
+    margin-right: 11px;
+  }
+
+  .text2 {
+    margin-right: 15px;
+  }
+
+  .icon {
+    margin-right: 3px;
+    width: 10px;
+    height: 9.79px;
+  }
+
+  .main-text {
+    display: inline;
+    justify-content: center;
+    margin-right: 150px;
+  }
+
+  .main-title {
+    width: 293px;
+    margin-right: 126px;
+  }
+
+  .title-kino {
+    font-family: "Roboto Slab", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 101.38%;
+    margin: 0;
+    width: 271px;
+  }
+
+  .info {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%;
+    width: 213px;
+  }
+
+  .mainlogo {
+    position: absolute;
+    visibility: hidden;
+    width: 141px;
+  }
+
+  .mainlogo-phone {
+    position: relative;
+    visibility: visible;
+    width: 141px;
+    margin-left: 166px;
+    margin-top: 2px;
+  }
+
+  .author-block {
+    background-color: #1e4681;
+    border-radius: 2.329px;
+    width: 255px;
+    height: 93px;
+    margin-top: 38px;
+    margin-left: 3px;
+  }
+
+  .author-info {
+    color: white;
+    padding-top: 8px;
+    padding-right: 12.59px;
+    padding-left: 12.39px;
+    font-family: "Roboto Slab", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 130%;
+    width: 190px;
+    margin: 0;
+  }
+
+  .author {
+    margin: 0;
+    color: white;
+    padding-top: 6.63px;
+    padding-right: 7.34px;
+    padding-left: 124px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 130%;
+    text-align: right;
+  }
+
+  .course-sec {
+    margin-top: 21px;
+    margin-left: 36px;
+    margin-bottom: 76px;
+  }
+
+  .title {
+    font-family: "Roboto Slab", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 101.38%;
+  }
+
+  .main-sect {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21.78px;
+  }
+
+  .text {
+    padding-right: 15px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    margin: 0;
+  }
+
+  .logo1 {
+    width: 170px;
+    margin-left: 66px;
+  }
+
+  .course {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 11px;
+    align-items: center;
+  }
+
+  .logo2 {
+    visibility: hidden;
+    position: absolute;
+    width: 134px;
+    margin-right: 76px;
+  }
+
+  .sect {
+    width: 85px;
+    margin-right: 33px;
+    margin-top: 25px;
+  }
+
+  .number {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .description {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 130%;
+    margin-top: 2px;
+  }
+
+  .format {
+    margin-left: 36px;
+    margin-bottom: 73px;
+  }
+
+  .ts-info {
+    display: inline;
+    justify-content: left;
+    margin-top: 32px;
+  }
+
+  .sect-ts {
+    width: 180px;
+    margin-top: 32px;
+  }
+
+  .sect-ts_second {
+    margin-right: 50px;
+    margin-left: 0;
+  }
+
+  .head-ts {
+    margin: 0;
+    color: #1e4681;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .text-ts {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 130%;
+    margin-top: 4px;
+  }
+
+  .about-sec {
+    margin-top: 78px;
+    margin-left: 36px;
+    margin-bottom: 85px;
+  }
+
+  .spisok {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    width: 299px;
+    margin-top: 22px;
+    padding-left: 10px;
+  }
+
+  .program {
+    margin-left: 35px;
+    padding-bottom: 47px;
+  }
+
+  .program-title {
+    margin-left: 0px;
+  }
+
+  .rectangles {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 51px;
+    justify-content: center;
+    margin-left: -25px;
+  }
+
+  .rectangle {
+    border: none;
+    border-radius: 13.9792px;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    margin-right: 17.375px;
+    margin-bottom: 24px;
+    height: 152.84px;
+  }
+
+  .rectangle img {
+    width: 185px;
+  }
+
+  .rect-head {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+    margin: 0;
+    padding-top: 5.13px;
+    padding-left: 9.32px;
+    padding-bottom: 14.85px;
+  }
+
+  .rect-head_last {
+    padding-bottom: 2px;
+  }
+
+  .rect-info {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130%;
+    margin: 0;
+    width: 125px;
+    padding-left: 9px;
+    padding-bottom: 10.4px;
+  }
+
+  .otziv {
+    background-color: #efefef;
+    padding-top: 42px;
+    padding-left: 36px;
+    padding-bottom: 53px;
+  }
+
+  .card {
+    margin-top: 29px;
+    margin-left: 2px;
+    margin-right: 32px;
+    background: #ffffff;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+    width: 308px;
+    padding-top: 18.47px;
+  }
+
+  .card-info {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%;
+    width: 266px;
+    margin-left: 21px;
+    margin-bottom: 6px;
+    margin-top: 0;
+  }
+
+  .avatar {
+    display: flex;
+    margin-left: 15px;
+    padding-bottom: 16.8px;
+  }
+
+  .avatar-img {
+    width: 80px;
+    margin-right: 13.63px;
+  }
+
+  .fio {
+    font-family: "Roboto Slab", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 101.38%;
+  }
+
+  .fio-icon {
+    width: 14.97px;
+  }
+
+  .date {
+    background-color: #9dc9c8;
+    padding-top: 62px;
+    padding-left: 35px;
+    padding-bottom: 69px;
+  }
+  .title-date {
+    margin-top: 0;
+    width: 224px;
+  }
+
+  .price {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 101.38%;
+    margin: 28px 0 3.3px 0;
+  }
+
+  .pricen {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 101.38%;
+    margin: 0;
+  }
+
+  .date-f {
+    display: flex;
+    width: 320px;
+  }
+
+  .date-d {
+    width: 200px;
+    margin-top: 32px;
+    margin-right: 20px;
+  }
+
+  .date-f_h {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 101.38%;
+    margin: 0 0 7px 0;
+  }
+
+  .date-f_p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 101.38%;
+    margin: 0;
+  }
+
+  footer {
+    background-color: #000;
+    color: white;
+    padding-left: 35px;
+    padding-top: 23.3px;
+    padding-bottom: 19px;
+  }
+
+  .footer-f {
+    display: inline;
+  }
+
+  .logo {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .logo-icon {
+    margin-bottom: 47.66px;
+  }
+
+  .logo-phone {
+    visibility: visible;
+    position: relative;
+  }
+
+  .icon-phone {
+    display: flex;
+  }
+
+  .icon {
+    margin-top: 14px;
+    margin-right: 10px;
+    width: 15px;
+  }
+
+  .contact {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 101.38%;
+    margin: 0;
+  }
+
+  .contact-p {
+    display: flex;
+    margin-top: 7px;
+  }
+
+  .contact-d {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 101.38%;
+    margin-top: 54px;
+    margin-bottom: 0;
+  }
+
+  .img-contact {
+    width: 13px;
+    margin-right: 11px;
   }
 }
